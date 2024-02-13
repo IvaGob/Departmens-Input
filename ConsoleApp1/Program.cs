@@ -31,6 +31,7 @@ namespace ConsoleApp1
        
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
             List<Department> arr = new List<Department>();
             //Цикл вводу данних кафедр
             do
