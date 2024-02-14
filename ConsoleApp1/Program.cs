@@ -24,7 +24,11 @@ namespace ConsoleApp1
             get => _factTime;
             set
             {
-                if (value >= 0) _factTime = value;
+                if (value >= 0 && value <= plannedTime)
+                {
+                    _factTime = value;
+                }
+                else if (value > plannedTime) _factTime = plannedTime;
             }
         }
         public int deviationInHours()
