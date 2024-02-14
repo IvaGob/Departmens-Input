@@ -137,7 +137,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Введіть заплановані години:");
                 int InputPlannedTime = Convert.ToInt32(Console.ReadLine());
                 //Ввід фактичних годин
-                Console.WriteLine("Введіть фактичні новини години:");
+                Console.WriteLine("Введіть фактичні години:");
                 int InputFactTime = Convert.ToInt32(Console.ReadLine());
                 //Створення нового екземпляра класу Department і його додавання в масив arr
                 arr.Add(new Department(InputName, InputPlannedTime, InputFactTime));
